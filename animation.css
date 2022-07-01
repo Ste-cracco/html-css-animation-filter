@@ -86,11 +86,7 @@
 }
 
 /* ESERCIZIO 10 */
-.col-xs-12 i {
-    transition: 3s;
-}
-
-.col-xs-12 i:hover {
+ i.ex-10-icon:hover {
     animation: rotazione 1.5s linear infinite;
 }
 
@@ -104,11 +100,7 @@
 }
 
 /* ESERCIZIO 11 */
-.col-xs-12 i {
-    transition: 3s;
-}
-
-.col-xs-12 i:hover {
+i.ex-11-icon:hover {
     animation: rotazione_2 1.5s linear infinite;
 }
 
