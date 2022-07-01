@@ -85,3 +85,42 @@
     height: auto;
 }
 
+/* ESERCIZIO 10 */
+.col-xs-12 i {
+    transition: 3s;
+}
+
+.col-xs-12 i:hover {
+    animation: rotazione 1.5s linear infinite;
+}
+
+@keyframes rotazione {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-359deg);
+    }
+}
+
+/* ESERCIZIO 11 */
+.col-xs-12 i {
+    transition: 3s;
+}
+
+.col-xs-12 i:hover {
+    animation: rotazione_2 1.5s linear infinite;
+}
+
+@keyframes rotazione_2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
